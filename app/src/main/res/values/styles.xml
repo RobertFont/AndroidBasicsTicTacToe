@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TicTacToe button style -->
+    <style name="button">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+
+    <!-- This style inherits the properties of button thanks to PARENTING to "button" style-->
+    <style name="button_dark" parent="button">
+        <item name="android:background">#6B6B6B</item>
+    </style>
+
+    <style name="button_light" parent="button">
+        <item name="android:background">#B1B1B1</item>
+    </style>
+
+</resources>
